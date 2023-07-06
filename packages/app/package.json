@@ -1,0 +1,11 @@
+{
+  "name": "@renovate-node10/app",
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "@material-ui/core": "^4.11.0"
+  }
+}

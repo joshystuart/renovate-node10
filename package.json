@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "renovate-node10",
+  "license": "UNLICENSED",
+  "version": "1.22.10",
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build --ignore docs --ignore playroom --parallel && yarn tsc",
+    "tsc": "tsc -b"
+  },
+  "devDependencies": {
+    "@babel/helper-get-function-arity": "^7.12.13",
+    "@testing-library/react": "^12.0.0",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@types/prettier": "^2.0.0",
+    "@types/prop-types": "^15.7.3",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^3.0.2",
+    "@types/styled-system": "^5.1.4",
+    "commitizen": "^4.0.3",
+    "css-mediaquery": "^0.1.2",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint-plugin-jest": "^24.0.0",
+    "fs-extra": "^10.0.0",
+    "jest-styled-components": "6.3.4",
+    "lerna": "3.16.4",
+    "material-ui-popup-state": "^1.7.1",
+    "react": "^16.9.0",
+    "source-map-support": "^0.5.19",
+    "styled-components": "3.4.5",
+    "ts-node": "^10.0.0",
+    "typescript": "^3.7.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "resolutions": {
+    "react": "16.9.0"
+  }
+}

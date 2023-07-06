@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/typings",
+    "rootDir": "./src"
+  },
+  "exclude": ["src/**/*.test.ts?", "src/**/*.docs.ts?"],
+  "include": ["src", "src/**/*.json", "../../globals.d.ts", "../../@types"]
+}
